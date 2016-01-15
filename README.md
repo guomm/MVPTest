@@ -3,11 +3,11 @@
     *	View 对应于Activity，负责View的绘制以及与用户交互
     *	Model 是业务逻辑和实体模型
     *	Presenter 负责完成View于Model间的交互
- 
     对于View的接口，去观察功能上的操作，然后考虑:
     *	该操作需要什么？ 
     *	该操作的结果，对应的反馈？
     *	该操作过程中对应的友好的交互？
+![image](https://github.com/guomm/MVPTest/raw/master/mvp.png)
 
 这个项目写的是根据一个人的id,拉取好友信息。对于这个项目来说，view提供的借口为：
 ```
